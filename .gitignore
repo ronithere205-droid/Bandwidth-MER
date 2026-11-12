@@ -1,0 +1,27 @@
+# Virtual Environment
+mosei_env/
+venv/
+.venv/
+env/
+
+# Raw and Extracted Datasets (Do not commit large data files to GitHub)
+dataset/
+extracted_non_visual_dataset/
+CMU-MultimodalSDK/
+*.csd
+*.csv
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.pkl
+*.pt
+
+# Python Cache & System files
+__pycache__/
+*.py[cod]
+*$py.class
+.cache/
+*.log
+.DS_Store
+Thumbs.db
